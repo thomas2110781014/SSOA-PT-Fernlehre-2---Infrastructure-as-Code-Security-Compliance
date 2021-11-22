@@ -9,6 +9,9 @@ terraform-compliance -f compliance/ -p plan.out
 
 infracost breakdown --path .
 ```
+## Installation
+https://www.infracost.io/docs/
+https://terraform-compliance.com/pages/installation/
 
 ## terraform-compliance
 
