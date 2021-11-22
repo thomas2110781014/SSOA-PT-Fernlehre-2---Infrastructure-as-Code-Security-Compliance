@@ -5,7 +5,11 @@ and `Infracost`.
 
 ```
 terraform plan -out=plan.out
+
 terraform-compliance -f compliance/ -p plan.out
+# Make sure the terraform-compliance executable is in your $PATH.
+# e.g. for Ubuntu Linux run:
+PATH=$HOME/.local/bin:$PATH
 
 infracost breakdown --path .
 ```
